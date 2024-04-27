@@ -1,14 +1,5 @@
 import React from "react";
 
-// {
-//   "message": [
-//       "https://images.dog.ceo/breeds/lhasa/n02098413_16009.jpg",
-//       "https://images.dog.ceo/breeds/appenzeller/n02107908_4092.jpg",
-//       "https://images.dog.ceo/breeds/dalmatian/cooper2.jpg"
-//   ],
-//   "status": "success"
-// }
-
 const HelloFetchImages = ({ defaultImageNums }) => {
   const [imageNums, setImageNums] = React.useState(defaultImageNums);
   const [imageUrls, setImageUrls] = React.useState([]);
