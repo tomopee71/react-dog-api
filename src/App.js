@@ -61,7 +61,7 @@ const HelloFetchImages = ({ defaultImageNums }) => {
 export default function App() {
   return (
     <div>
-      <HelloFetchImages defaultImageNums={20} />
+      <HelloFetchImages defaultImageNums={10} />
     </div>
   );
 }
